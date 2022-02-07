@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REXOR BOOKING</title>
+    <link rel="icon" href="IMG/1.jpg" type="IMG/gif/jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"rel="stylesheet"/>
+</head>
+<body>
+    <!-- header section start -->
+        <header class="fixed inset-x-0 top-0 bg-white flex items-center justify-between">
+            
+            <a href="#" class="logo text-black text-4xl">Rexor Booking</a>
+
+            <nav class="navbar">
+                <a class="text-3xl rounded-lg text-black hover:bg-green-500 hover:text-white active" href="#home">Home</a>
+                <a class="text-3xl rounded-lg text-black hover:bg-green-500 hover:text-white" href="#about">About</a>
+                <a class="text-3xl rounded-lg text-black hover:bg-green-500 hover:text-white" href="#services">Services</a>
+                <a class="text-3xl rounded-lg text-black hover:bg-green-500 hover:text-white" href="#order">Order</a>
+                <a class="text-3xl rounded-lg text-black hover:bg-green-500 hover:text-white" href="#reviews">Reviews</a>
+            </nav>
+
+            <div class="icons">
+                <i class="cursor-pointer ml-4 h-16 w-16 text-center fas fa-bars hidden" id="menu-bars"></i>
+                <i class="cursor-pointer ml-4 h-16 w-16 text-center fas fa-search" id="search-icon"></i>
+                <a class="cursor-pointer ml-4 h-16 w-16 text-center fas fa-heart"href="#"></a>
+                <a class="cursor-pointer ml-4 h-16 w-16 text-center fas fa-shopping-cart" href="#"></a>
+            </div>
+        </header>
+    <!-- header section stop -->
+        <!-- search form start -->
+
+        <form action="" id="search-form" class="fixed left-0 h-full w-full flex items-center justify-center text-white text-5xl normal-case">
+            <input type="search" name="" placeholder="search here..." id="search-box" class="w-1/2">
+            <label for="search-box" class="fas fa-search text-white cursor-pointer text-5xl hover:text-green-700"></label>
+            <i class="fas fa-times absolute text-white cursor-pointer text-5xl" id="close"></i>
+        </form>
+
+        <!-- search form stop -->
+    <!-- script section start-->
+    <script src="index.js"></script>
+    <!-- script section stop-->
+
+</body>
+</html>
